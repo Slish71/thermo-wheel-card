@@ -1,6 +1,6 @@
 # Thermo Wheel Card
 
-A custom Home Assistant thermostat card with a circular gauge, swipe temperature control, manual/auto mode buttons, room icons, outside temperature, and indoor humidity.
+A custom Home Assistant thermostat card with a circular gauge, based very loosley on the BOSCH CT200 interface, swipe temperature control, manual/auto mode buttons, room icons, outside temperature, and indoor humidity.
 
 ## Screenshots
 
@@ -218,10 +218,11 @@ Current thresholds:
 - `30%` to `<40%` or `>60%` to `70%` = amber
 - below `30%` or above `70%` = red
 
+![Thermo Wheel Card screenshot 3](images/overview.png)
+
 ## Notes
 
-- If the card updates on desktop but not on a tablet or Fully Kiosk, clear the browser/app cache.
-- If you update the JavaScript file and changes do not appear, clear cache or rename the built JS file and update the Lovelace resource path.
+- If the card updates on desktop but not on a tablet or browser, clear the browser/app cache.
 - The top-right icons use CSS masking, so the PNG files should be simple icons on a transparent background.
 
 ## Development notes
