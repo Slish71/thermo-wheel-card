@@ -1,0 +1,14 @@
+{
+  "name": "thermo-wheel-card",
+  "version": "0.1.0",
+  "description": "Home Assistant custom thermostat wheel card",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/thermo-wheel-card.ts --bundle --outfile=dist/thermo-wheel-card.js --format=esm --target=es2020",
+    "watch": "esbuild src/thermo-wheel-card.ts --bundle --outfile=dist/thermo-wheel-card.js --format=esm --target=es2020 --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}
